@@ -53,7 +53,7 @@ The section below will elaborate on and discuss key files we have modified to ma
 
 ### 2. Scripts 📁
 * **[turtle_main.py](https://github.com/nxm23763/cs4013_oliver/blob/main/p1_world/scripts/turtle_main.py):**
-* **[ai.py](https://github.com/nxm23763/cs4013_oliver/blob/main/p1_world/scripts/ai.py):**
+* **[ai.py](https://github.com/nxm23763/cs4013_oliver/blob/main/p1_world/scripts/ai.py):** Runs Python 3.6.9 unlike the rest of our source code for OpenAI compatibility. Uses the OpenAI API to ask a question to the GPT-3.5 Turbo model. Prints the generated response after processing the user's question and handles exceptions such as rate limits or invalid requests. The question is passed as a command-line argument and is activated by our main file, `turtle_main.py`.
 
 ### 3. Worlds 📁
 *Is this needed?*
