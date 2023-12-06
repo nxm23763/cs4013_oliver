@@ -23,7 +23,7 @@ SSH -Y into 5 terminals, and run these 5 commands in the given order in each ter
 
 Finally, on the desktop terminal, run:
 
-`python tour_robot.py`
+`roslaunch p1_world turtle_main.py`
 
 Note: The given repository does not contain the entire catkin workspace. Assuming the same default file hierarchy of a catkin workspace, the files in our home directory correspond to the `src` directory, though only relevant sub-directories are included in this repository.
 
