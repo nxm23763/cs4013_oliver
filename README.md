@@ -34,7 +34,7 @@ The section below will elaborate on and discuss key files we have modified to ma
 ### 1. Launch 📁
 * **[minimal.launch](https://github.com/nxm23763/cs4013_oliver/blob/main/turtlebot_bringup/launch/minimal.launch):**
 * **[3dsensor.launch](https://github.com/nxm23763/cs4013_oliver/blob/main/turtlebot_bringup/launch/3dsensor.launch):**
-* **amcl_demo.launch:**
+* **[amcl_demo.launch](https://github.com/nxm23763/cs4013_oliver/blob/main/turtlebot_gazebo/launch/amcl_demo.launch):**
 * **view_navigation.launch:**
 
 ### 2. Scripts 📁
