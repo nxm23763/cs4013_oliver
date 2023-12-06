@@ -38,5 +38,7 @@ The section below will elaborate on and discuss key files we have modified to ma
 * **[view_navigation.launch](https://github.com/nxm23763/cs4013_oliver/blob/main/turtlebot_rviz_launchers/launch/view_navigation.launch):** Configures visualization of the Turtlebot in RViz during map building or navigation using the ROS navigation stack.
 
 ### 2. Scripts 📁
+* **[turtle_main.py](https://github.com/nxm23763/cs4013_oliver/blob/main/p1_world/scripts/turtle_main.py):**
+* **ai.py:**
 
 ### 3. Worlds 📁 //is this needed?
