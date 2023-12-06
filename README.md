@@ -1,8 +1,20 @@
 # cs4013_oliver
 
+*Authors: Justus Sommer, Minh Tran, Jacob Pierce, Creighton Cornelison, Natalia Mora*
+
 ## Overview
 
-TODO
+## Overview
+
+This repository contains the source code for an implementation of an NLP-augmented tour guide robot on a Kobuki Turtlebot.
+
+Our robot, named "Oliver," is able to listen for and respond to user commands. Oliver can complete the following commands:
+
+* **`AUTOMODE`**: Oliver autonomously wanders around the room, avoiding obstacles. No target node is assigned.
+* **`TO_<NODE>`**: Oliver travels to specified target node.
+* **`WHERE`**: Oliver declares its current location.
+* **`HERE_<NODE>`**: Oliver listens to user's specified node and sets it as its current location.
+* **`HALT`**: Oliver will stop moving.
 
 ## How to Run 🏎️
 
