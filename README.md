@@ -1,5 +1,7 @@
 # Oliver: A Speech-Oriented Tour Guide Robot
 
+*University of Oklahoma, CS 4013 - Intro to Intelligent Robotics*
+
 *Authors: Justus Sommer, Minh Tran, Jacob Pierce, Creighton Cornelison, Natalia Mora*
 
 ## Overview
