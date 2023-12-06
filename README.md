@@ -1,4 +1,4 @@
-# cs4013_oliver
+# Oliver: A Speech-Oriented Tour Guide Robot
 
 *Authors: Justus Sommer, Minh Tran, Jacob Pierce, Creighton Cornelison, Natalia Mora*
 
