@@ -4,8 +4,6 @@
 
 ## Overview
 
-## Overview
-
 This repository contains the source code for an implementation of an NLP-augmented tour guide robot on a Kobuki Turtlebot.
 
 Our robot, named "Oliver," is able to listen for and respond to user commands. Oliver can complete the following commands:
