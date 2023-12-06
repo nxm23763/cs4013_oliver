@@ -16,6 +16,8 @@ Our robot, named "Oliver," is able to listen for and respond to user commands. O
 * **`HERE_<NODE>`**: Oliver listens to user's specified node and sets it as its current location.
 * **`HALT`**: Oliver will stop moving.
 
+Please see our project report (to be linked here soon) for more information on our development lifecycle, process, and rationale.
+
 ## How to Run 🏎️
 
 We assume that the user has completed the following initialization procedure before running this code:
@@ -53,4 +55,5 @@ The section below will elaborate on and discuss key files we have modified to ma
 * **[turtle_main.py](https://github.com/nxm23763/cs4013_oliver/blob/main/p1_world/scripts/turtle_main.py):**
 * **[ai.py](https://github.com/nxm23763/cs4013_oliver/blob/main/p1_world/scripts/ai.py):**
 
-### 3. Worlds 📁 //is this needed?
+### 3. Worlds 📁
+*Is this needed?*
