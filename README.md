@@ -39,6 +39,6 @@ The section below will elaborate on and discuss key files we have modified to ma
 
 ### 2. Scripts 📁
 * **[turtle_main.py](https://github.com/nxm23763/cs4013_oliver/blob/main/p1_world/scripts/turtle_main.py):**
-* **ai.py:**
+* **[ai.py](https://github.com/nxm23763/cs4013_oliver/blob/main/p1_world/scripts/ai.py):**
 
 ### 3. Worlds 📁 //is this needed?
