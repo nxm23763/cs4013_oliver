@@ -32,10 +32,10 @@ The section below will elaborate on and discuss key files we have modified to ma
 ## Notable Code
 
 ### 1. Launch 📁
-* **[minimal.launch](https://github.com/nxm23763/cs4013_oliver/blob/main/turtlebot_bringup/launch/minimal.launch):**
-* **[3dsensor.launch](https://github.com/nxm23763/cs4013_oliver/blob/main/turtlebot_bringup/launch/3dsensor.launch):**
-* **[amcl_demo.launch](https://github.com/nxm23763/cs4013_oliver/blob/main/turtlebot_gazebo/launch/amcl_demo.launch):**
-* **[view_navigation.launch](https://github.com/nxm23763/cs4013_oliver/blob/main/turtlebot_rviz_launchers/launch/view_navigation.launch):**
+* **[minimal.launch](https://github.com/nxm23763/cs4013_oliver/blob/main/turtlebot_bringup/launch/minimal.launch):** Sets up the Turtlebot parameters, includes configurations for the robot and mobile base, simulates a fake laser using nodelets, configures Gmapping for SLaM (Simultaneous Localization and Mapping), and launches RViz for visualization.
+* **[3dsensor.launch](https://github.com/nxm23763/cs4013_oliver/blob/main/turtlebot_bringup/launch/3dsensor.launch):** Configures a 3D sensor nodelet for Turtlebot, which allows customization of processing modules (RGB, IR, depth, etc.), depth registration, and laser scan processing.
+* **[amcl_demo.launch](https://github.com/nxm23763/cs4013_oliver/blob/main/turtlebot_gazebo/launch/amcl_demo.launch):** Sets up a map server for Turtlebot, specifies parameters for localization using Adaptive Monte Carlo Localization (AMCL), and configures the Move Base system.
+* **[view_navigation.launch](https://github.com/nxm23763/cs4013_oliver/blob/main/turtlebot_rviz_launchers/launch/view_navigation.launch):** Configures visualization of the Turtlebot in RViz during map building or navigation using the ROS navigation stack.
 
 ### 2. Scripts 📁
 
