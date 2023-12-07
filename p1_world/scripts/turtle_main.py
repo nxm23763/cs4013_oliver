@@ -38,12 +38,13 @@ nodesDict = {'home': (.254, -.287), 'apples': (-.362, 3.8), 'basketballs': (.911
 soundhandle = SoundClient()
 
 
-
+# parts integrated portion from group provided by Josiah Dadulo, Kevin Nguyen, Karan Peo, and Andrew Graham
 def manhattan_distance(node1, node2):
     x1, y1 = node1
     x2, y2 = node2
     return abs(x1 - x2) + abs(y1 - y2)
 
+# parts integrated portion from group provided by Josiah Dadulo, Kevin Nguyen, Karan Peo, and Andrew Graham
 def total_distance(path, nodes):
     distance = 0
     for i in range(len(path) - 1):
@@ -51,6 +52,7 @@ def total_distance(path, nodes):
     distance += manhattan_distance(nodes[path[-1]], nodes[path[0]])
     return distance
 
+# parts integrated portion from group provided by Josiah Dadulo, Kevin Nguyen, Karan Peo, and Andrew Graham
 def tsp_manhattan(nodes):
     num_nodes = len(nodes)
     if num_nodes <= 2:
@@ -82,6 +84,7 @@ def tsp_manhattan(nodes):
 #TODO
 #def navigate_path(path):
 
+# parts integrated portion from group provided by Josiah Dadulo, Kevin Nguyen, Karan Peo, and Andrew Graham
 class GoToPose():
     def __init__(self):
 
@@ -388,6 +391,7 @@ def tour():
 
     command = ""
 
+# parts integrated portion from group provided by Josiah Dadulo, Kevin Nguyen, Karan Peo, and Andrew Graham
 def mainNav(mode, node):
     global nodesDict
     user_input = mode
